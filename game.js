@@ -113,25 +113,3 @@ scissorsButton.addEventListener('click', () => {
     checkForWinner(playerScore, compScore);
 })
 
-
-/*
-const game = () => {
-    for (let i = 0; i < 5; i++) {
-        const playerSelection = prompt('Choose your throw', 'rock, paper, scissors').toLowerCase() 
-        const computerSelection = computerPlay();
-        playRound(playerSelection, computerSelection);
-    }
-
-    if (playerScore > compScore) {
-        return 'You beat the computer! You are a genius';
-    }
-    else if (playerScore < compScore) {
-        return 'You got beat by the computer! Practice More';
-    } 
-    else {
-        return 'You tied with the computer! Not too shabby';
-    }
-}
-
-
-console.log(game());  */
